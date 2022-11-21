@@ -1,0 +1,215 @@
+
+
+.login {
+    z-index: -50;
+
+    position: absolute;
+    left: 22.39%;
+    right: 22.34%;
+    top: 21.09%;
+    bottom: 21.14%;
+   
+}
+
+.loginTitle {
+    margin-top: 0;
+    text-align: center;
+    font-family: 'Helios Regular';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 70px;
+
+
+/* gray/900 */
+
+color: #2B2B2B;
+}
+
+.loginBox {
+    
+    z-index: -10;
+  
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 14.88%;
+    bottom: 0%;
+
+    background: #E3E6EC;
+    box-shadow: 84.6413px 152.354px 189.032px rgba(209, 217, 230, 0.67), 84.6413px 67.7131px 95.9268px rgba(209, 217, 230, 0.34), 84.6413px 78.9986px 107.212px rgba(209, 217, 230, 0.4), 84.6413px 98.7482px 126.962px rgba(209, 217, 230, 0.48), -56.4275px -177.747px 183.39px rgba(255, 255, 255, 0.75), -56.4275px -103.923px 120.393px rgba(255, 255, 255, 0.539141), -56.4275px -88.489px 98.8215px rgba(255, 255, 255, 0.44708), -56.4275px -80.1792px 85.1116px rgba(255, 255, 255, 0.375);
+    border-radius: 50px;
+
+}
+
+.inputBox {
+    position: absolute;
+    left: 24.12%;
+    right: 24.12%;
+    top: 19.95%;
+    bottom: 60.1%;
+   
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    
+    /* gray/700 */
+    
+    color: #828282;
+
+
+
+}
+
+.checkedBox {
+    position: absolute;
+    left: 24.5%;
+    right: 0%;
+    top: 44.13%;
+    bottom: 52.49%;
+
+    font-size: auto;
+    font-weight: 550;  
+    color: #2B2B2B;
+}
+
+.buttonBox {
+    position: absolute;
+    left: 24.12%;
+    right: 24.12%;
+    top: 55.79%;
+    bottom: 34.23%;
+
+}
+
+.blueButton {
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background-color: #406882;
+border-radius: 8px;
+border: none;
+
+font-weight: 500;
+font-size: auto;
+
+color: #E4E3E3;
+}
+
+.secondButtonBox {
+    position: absolute;
+    left: 24.12%;
+    right: 24.12%;
+    top: 70.5%;
+    bottom: 26.46%;
+
+}
+
+.lineBox {
+    position: absolute;
+    left: 24.12%;
+    right: 24.12%;
+    top: 77.43%;
+    bottom: 19.53%;
+
+    text-align: center;
+    font-size: 2px;
+
+}
+
+.iconBox {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+    
+    position: absolute;
+    left: 33.84%;
+    right: 33.96%;
+    top: 85.21%;
+    bottom: 4.82%;
+
+ 
+}
+
+.form.input.placeholder {
+
+}
+
+.emailBox {
+    position: absolute;
+    bottom: 50%;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+
+    box-sizing: border-box;
+
+    border-bottom: 2px solid #828282;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+
+    background-color: transparent;
+}
+
+.passwordBox {
+    position: absolute;
+    bottom: 0%;
+    top: 50%;
+    left: 0%;
+    right: 0%;
+
+    box-sizing: border-box;
+
+    border-bottom: 2px solid #828282;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+
+    background-color: transparent;
+
+}
+
+.joinButton {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 2px;
+
+    float: left;
+}
+
+.searAccButton {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 2px;
+    
+    float: right;
+}
+
+.searPassButton {
+    border-top: none;
+    border-right: none;
+    border-left: solid 1px gray;
+    border-bottom: none;
+
+    outline: none;
+    background-color: transparent;
+    font-size: 2px;
+
+    float: right;
+
+}
+
