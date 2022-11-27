@@ -120,6 +120,8 @@ color: #E4E3E3;
     right: 24.12%;
     top: 77.43%;
     bottom: 19.53%;
+    
+    border-bottom: 1px solid #cecece;
 
     text-align: center;
     font-size: 2px;
@@ -138,7 +140,7 @@ color: #E4E3E3;
     right: 33.96%;
     top: 85.21%;
     bottom: 4.82%;
-
+background-color: aqua;
  
 }
 
@@ -213,3 +215,36 @@ color: #E4E3E3;
 
 }
 
+.kakaoIcon{
+    width: 40px;
+    height: 40px;
+   object-fit: contain;
+   left: 0%;
+
+   position:absolute;
+}
+
+
+.googleIcon{
+    width: 40px;
+    height: 40px;
+ 
+   left:43%;
+   display: flex;
+   justify-content: center;
+   align-content: center; 
+   position:absolute; 
+
+   /*중앙정렬 해야함*/
+}
+
+
+.naverIcon{
+    width: 40px;
+    height: 40px;
+    
+    right:0%;
+   object-fit: contain;
+
+   position:absolute;
+}

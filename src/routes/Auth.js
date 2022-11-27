@@ -69,11 +69,11 @@ return (
                 <button className='searPassButton'>비밀번호 찾기</button>
                 <button className='searAccButton'>계정 찾기</button>
             </div>
-            <div className='lineBox'>__________  또는  __________</div>
+            <div className='lineBox'>또는</div>
             <div className='iconBox'>
-                <button>continue with Naver</button>
-                <button>continue with Google</button>
-                <button>continue with Kakao</button>
+                <img className='kakaoIcon' src="images/kakaoIcon.png" alt="kakaoIcon" />
+                <img className='googleIcon' src="images/googleIcon.png" alt="googleIcon" />
+                <img className='naverIcon' src="images/naverIcon.png" alt="naverIcon" />
             </div>
 
 

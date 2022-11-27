@@ -1,10 +1,11 @@
-import AppRouter from "./Router";
-import Auth from "../routes/Auth";
-import Home from "../routes/Home";
+//import AppRouter from "./Router";
+//import Auth from "../routes/Auth";
+//import Home from "../routes/Home";
+import Join from "../routes/Join";
 
 
 function App() {
-  return  <Auth />
+  return  <Join />
 };
 
 export default App;

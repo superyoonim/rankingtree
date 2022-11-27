@@ -1,0 +1,188 @@
+.mainJoin {
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+   
+    gap: 80px;
+    
+    position: absolute;
+    width: 355px;
+    height: 742.14px;
+    left: calc(50% - 355px/2 - 0.5px);
+    top: calc(50% - 742.14px/2 + 0.07px);
+    margin-top: 20px;
+
+
+background-color: #E1E1E1;;
+}
+.logoJoin {
+    width: 276px;
+height: 107.14px;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.inputJoin {
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+width: 355px;
+height: 383px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+.emailJoin{
+    width: 355px;
+height: 88px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+}
+
+.InputJoin{
+width: 100%;
+height: 30%;
+ 
+ /* gray/100 */
+ 
+ background: #F7F7F7;
+ /* content2 */
+ 
+ border: 0.5px solid #72787D;
+ /* shadow/light */
+ 
+ box-shadow: -5px -5px 20px rgba(255, 255, 255, 0.53), 13px 14px 12px -6px rgba(166, 180, 200, 0.57);
+ border-radius: 8px;
+ }
+
+ .smallButtonJoin{
+float: right;
+margin-top: 5px;
+color: #F7F7F7;
+font-size: x-small;
+
+background: #406882;
+border-radius: 5px;
+border: none;
+ }
+
+.passwordJoin{
+    width: 355px;
+height: 88px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+.checkJoin{
+    width: 355px;
+height: 88px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 2;
+flex-grow: 0;
+
+}
+.nicknameJoin{
+    width: 355px;
+height: 89px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 3;
+flex-grow: 0;
+
+}
+
+.buttonJoin {
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 4px;
+gap: 4px;
+isolation: isolate;
+
+width: 207px;
+height: 92px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+}
+
+.smallJoin{
+    
+font-style: normal;
+font-weight: 400;
+font-size: 8px;
+
+float: right;
+
+margin-top: 5px;
+
+
+/* content2 */
+
+color: #72787D;
+
+}
+
+.bigButtonJoin{
+    width: 100%;
+height: 84px;
+
+background: #6998AB;
+box-shadow: inset 9.43333px -9.43333px 9.43333px rgba(80, 116, 130, 0.1), inset -9.43333px 9.43333px 9.43333px rgba(255, 255, 255, 0.1);
+backdrop-filter: blur(9.43333px);
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 24.71px;
+border: none;
+
+
+font-weight: 600;
+font-size: 25px;
+line-height: 30px;
+color: #E2E2E5;
+
+
+
+}
