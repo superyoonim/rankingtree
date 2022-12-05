@@ -1,0 +1,84 @@
+.MainCenter{
+    margin: 20%;
+    margin-top: 10px;
+}
+
+.MainBox{   
+    width: 1004px;
+    height: 550px;
+}
+.MainTitle{
+    width: 1005px;
+    height: 50px;
+    font-display: bottom;
+    font-size: xx-large;
+    border-bottom: solid;
+}
+
+.SubBox{
+    width: 1004px;
+    height: 320px;
+    margin-top: 50px;
+}
+
+.SubBoxLeft{
+    width: 383px;
+    height: 298px;
+    float: left;
+}
+
+.SubBoxRight{
+    width: 480.07px;
+    height: 316.08px;
+    float: right;
+}
+
+.SubExplain{
+    width: 1004px;
+    height: 350px;
+}
+
+.BoldFont{
+    font-weight: 50;
+    font-size: 30px;
+}
+
+.SubBoxLast{
+    width: 1004px;
+    height: 30px;
+    border-bottom: solid;
+}
+
+.CloseBox{
+    margin-top: 20px;
+    width: 1004px;
+    height: 68.87px;
+}
+
+.CloseBoxLeft{
+    width: 502px;
+    height: 68.87px;
+    float: left;
+}
+
+.CloseBoxRight{
+    width: 502px;
+    height: 68.87px;
+    float: right;    
+}
+
+.IputBoxPro{
+    text-align: center;
+    height: 35px;
+    width: 400px; 
+    background: #F0F0F0;
+    border: 0.646361px solid #406882;
+    border-radius: 15.9716px;
+}
+
+.ButtonBoxPro{
+    height: 35px;
+    width: 80px;
+    margin-left:10px ; 
+    border-radius: 15.9716px;
+}
