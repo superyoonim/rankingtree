@@ -1,11 +1,14 @@
 .MainCenter{
     margin: 20%;
-    margin-top: 10px;
+    margin-top: 30px;
 }
 
 .MainBox{   
     width: 1004px;
     height: 550px;
+    margin-bottom: 50px;
+    border-radius: 18px;
+    background: linear-gradient(#B1D0E0, #6998AB, #406882, #1A374D);
 }
 .MainTitle{
     width: 1005px;
@@ -81,4 +84,111 @@
     width: 80px;
     margin-left:10px ; 
     border-radius: 15.9716px;
+}
+
+.screen1{
+
+    width: 60%;
+    height: 100%;
+    float: left;
+    //background-color: red;
+}
+
+.screen1-1{
+    margin: 7%;
+    width: 90%;
+    height: 15%;
+    color: #F0F0F0;
+    border-bottom: solid #F0F0F0;
+    font-size: xxx-large;
+    //text-align: center;
+    //background-color: pink;
+}
+
+.screen1-2{
+    margin: 7%;
+    padding: 5%;
+    width: 80%;
+    height: 10%;
+    border-radius: 18px;
+    background-color: #D9D9D9;
+}
+
+.screen1-3{
+    margin-left: 7%;
+    margin-right: 5%;
+    width: 90%;
+    height: 0%;
+    border-top: solid #F0F0F0;
+}
+
+.screen1-4{
+    margin: 7%;
+    padding: 5%;
+    width: 80%;
+    height: 10%;
+    border-radius: 18px;
+    background-color: #D9D9D9;
+}
+
+.screen2{
+    width: 40%;
+    height: 100%;
+    float: left;
+    //background-color: gray;
+}
+
+.screen2-1{
+    margin: 7%;
+    padding: 03%;
+    width: 80%;
+    height: 20%;
+    color: #F0F0F0;
+    text-align: end;
+   
+}
+
+.screen2-2{
+    margin: 7%;
+    padding: 03%;
+    width: 80%;
+    height: 30%;
+    background-color: black;
+    border-radius: 18px;
+}
+
+.screen2-3{
+    margin: 7%;
+    padding: 3%;
+    width: 80%;
+    height: 10%;
+    border-radius: 18px;
+}
+
+.screen2-3-1{
+  
+    width: 20%;
+    height: 100%;
+    margin: 5%;
+    float: left;
+    color: #F0F0F0;
+    
+}
+
+.screen2-3-2{
+    width: 20%;
+    height: 100%;
+    margin: 5%;
+    float: left;
+    color: #F0F0F0;
+   
+}
+
+.screen2-3-3{
+    width: 20%;
+    height: 100%;
+    margin: 5%;
+    float: left;
+    color: #F0F0F0;
+    
 }

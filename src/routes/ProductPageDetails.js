@@ -4,8 +4,39 @@ const ProductPageDetails = () =>  {
 
 return (
     <section className='MainCenter'>
-        <div >
-        <img className='MainBox'src="images/mainPro.png" alt="mainPro" />
+        <div className='MainBox'>
+            <div className='screen1'>
+             <div className='screen1-1'>LikeLion NFT Project</div>
+             <div className='screen1-2'>Block
+             <br/>
+             Ranking Tree 게시물의 객관적인 평점입니다</div>
+             <div className='screen1-3'></div>
+             <div className='screen1-4'>
+                Leaf
+                <br/>
+                일반적인 유저들의 평점입니다.
+             </div>
+            </div>
+            <div className='screen2'>
+            <div className='screen2-1'>
+                등록일 2022.11.11
+                <br/>
+                Last Updated 2022.11.11
+            </div>
+            <div className='screen2-2'></div>
+            <div className='screen2-3'>
+            <div className='screen2-3-1'>
+                즐겨찾기
+            </div>
+            <div className='screen2-3-2'>
+                좋아요
+            </div>
+            <div className='screen2-3-3'>
+                공유하기
+            </div>
+            </div>
+
+            </div>
         </div>
         <div className='MainTitle'>Product Info</div>
         <section className='SubBox'>
