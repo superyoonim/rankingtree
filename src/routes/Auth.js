@@ -70,7 +70,8 @@ return (
                 <button className='searAccButton'>계정 찾기</button>
             </div>
             <div className='lineBox'>또는</div>
-            <div className='iconBox'>
+            <div className='iconBox'
+            onClick={() => alert('아직 지원하지 않는 서비스 입니다.')}>
                 <img className='kakaoIcon' src="images/kakaoIcon.png" alt="kakaoIcon" />
                 <img className='googleIcon' src="images/googleIcon.png" alt="googleIcon" />
                 <img className='naverIcon' src="images/naverIcon.png" alt="naverIcon" />

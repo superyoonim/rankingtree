@@ -140,13 +140,10 @@ color: #E4E3E3;
     right: 33.96%;
     top: 85.21%;
     bottom: 4.82%;
-background-color: aqua;
  
 }
 
-.form.input.placeholder {
 
-}
 
 .emailBox {
     position: absolute;
@@ -228,12 +225,15 @@ background-color: aqua;
 .googleIcon{
     width: 40px;
     height: 40px;
- 
-   left:43%;
+    position: relative; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+   /* left:43%;
    display: flex;
    justify-content: center;
    align-content: center; 
-   position:absolute; 
+   position:absolute;  */
 
    /*중앙정렬 해야함*/
 }

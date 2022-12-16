@@ -7,14 +7,13 @@ return (
         <div className='MainBox'>
             <div className='screen1'>
              <div className='screen1-1'>LikeLion NFT Project</div>
-             <div className='screen1-2'>Block
-             <br/>
-             Ranking Tree 게시물의 객관적인 평점입니다</div>
+             <div className='screen1-2'>
+             Block |   Ranking Tree 게시물의 객관적인 평점입니다
+             <ul>통계를 낼 수 있는 정보가 부족합니다</ul></div>
              <div className='screen1-3'></div>
              <div className='screen1-4'>
-                Leaf
-                <br/>
-                일반적인 유저들의 평점입니다.
+                Leaf |   일반적인 유저들의 평점입니다
+                <ul>통계를 낼 수 있는 정보가 부족합니다</ul>
              </div>
             </div>
             <div className='screen2'>
@@ -26,13 +25,13 @@ return (
             <div className='screen2-2'></div>
             <div className='screen2-3'>
             <div className='screen2-3-1'>
-                즐겨찾기
+            <img src="images/starIcon.png" alt="starIcon" />
             </div>
             <div className='screen2-3-2'>
-                좋아요
+            <img src="images/heartIcon.png" alt="heartIcon" />
             </div>
             <div className='screen2-3-3'>
-                공유하기
+            <img src="images/shareIcon.png" alt="shareIcon" />
             </div>
             </div>
 
@@ -41,12 +40,34 @@ return (
         <div className='MainTitle'>Product Info</div>
         <section className='SubBox'>
             <div className='SubBoxLeft'> 
-            <img src="images/subLeft.png" alt="subLeft" />
+            <div className='floor1'>
+                <div className='floor1-1'>Name
+                    <div className='normalFont'>  LikeLion NFT Project</div>
+                    </div>
+                <div className='floor1-1'>by
+                <div className='normalFont'>  (주)멋쟁이 사자처럼</div>
+                </div>
+                <div className='floor1-1'>Chain
+                <div className='normalFont'>  *Klaytn</div>
+                </div>
+                <div className='floor1-1'>Links
+                <div className='normalFont'>  *</div>
+                </div>
+            </div>
+            
+   
             </div>
             <div className='SubBoxRight'>
+                {/* <div className='topBox1'>__________멋쟁이 사자처럼 메인 사진</div>
+                <div className='topBox2'>__________사진 더보기</div> */}
             <img src="images/subRight.png" alt="subRight" />
             </div>
         </section>
+        <div className='iconPlus'>
+        <img src="images/PFPIcon.png" alt="PFPIcon" />
+        <img src="images/NFTIcon.png" alt="NFTIcon" />
+        <img src="images/CoinIcon.png" alt="CoinIcon" />
+        </div>
         <div className='SubExplain'>
             <div className='BoldFont'>Product 소개</div>
             <br/>
