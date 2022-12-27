@@ -7,22 +7,31 @@ import ImageGallery from 'react-image-gallery';
 
 
 const images = [
-  { id:1 ,
-    original : 'https://picsum.photos/id/1018/1000/600/',
-    title: '배경1'
-  },
-  { id:2 ,
-    original: 'https://picsum.photos/id/1015/1000/600/',
-    title: '배경2'
-  },
-  // etc.
-];
+    {
+      original: 'https://picsum.photos/id/1018/1000/600/',
+      thumbnail: 'https://picsum.photos/id/1018/250/150/',
+    },
+    {
+      original: 'https://picsum.photos/id/1015/1000/600/',
+      thumbnail: 'https://picsum.photos/id/1015/250/150/',
+    },
+    {
+      original: 'https://picsum.photos/id/1019/1000/600/',
+      thumbnail: 'https://picsum.photos/id/1019/250/150/',
+    },
+  ];
+
+// class MyGallery extends React.Component {
+//   render() {
+//     return <ImageGallery items={images} />;
+//   }
+// }
 
 const ProductPageDetails = () =>  {
 
 return (
 
-   
+    
 
     <section className='MainCenter'>
 
@@ -86,7 +95,8 @@ return (
    
             <div className='SubBoxRight'>
                 <div className='topBox1'>
-                <ImageGallery
+                <ImageGallery style={{width:"10%"}} items={images} />;
+                {/* <ImageGallery
         items={images}
         showFullscreenButton={false}
         showThumbnails={false}
@@ -96,7 +106,7 @@ return (
           width: 50%;
           height: auto !important;
         }`}
-      </style>
+      </style> */}
                 </div>
                 <div className='topBox2'>
      </div>
