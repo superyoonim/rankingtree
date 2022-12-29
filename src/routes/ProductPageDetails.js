@@ -33,18 +33,9 @@ const images = [
     },
   ];
 
-// class MyGallery extends React.Component {
-//   render() {
-//     return <ImageGallery items={images} />;
-//   }
-// }
-
 const ProductPageDetails = () =>  {
 
 return (
-
-    
-
     <section className='MainCenter'>
 
         <div className='MainBox'>
@@ -70,15 +61,12 @@ return (
             <div className='screen2-3'>
             <div className='screen2-3-1'>
                 <FaStar size="20"/> 즐겨찾기
-            {/* <img src="images/starIcon.png" alt="starIcon" /> */}
             </div>
             <div className='screen2-3-2'>
                 <FaHeart size="20"/> 좋아요
-            {/* <img src="images/heartIcon.png" alt="heartIcon" /> */}
             </div>
             <div className='screen2-3-3'>
                 <FaShareSquare size="20"/> 공유하기
-            {/* <img src="images/shareIcon.png" alt="shareIcon" /> */}
             </div>
             </div>
 
@@ -108,21 +96,11 @@ return (
             <div className='SubBoxRight'>
                 <div className='topBox1'>
                 <ImageGallery style={{width:"10%"}} items={images} />
-                {/* <ImageGallery
-        items={images}
-        showFullscreenButton={false}
-        showThumbnails={false}
-      />
-      <style>
-        {`.image-gallery-image {
-          width: 50%;
-          height: auto !important;
-        }`}
-      </style> */}
+               
                 </div>
                 <div className='topBox2'>
      </div>
-            {/* <img src="images/subRight.png" alt="subRight" /> */}
+            
             </div>
         </section>
         <div className='iconPlus'>
@@ -162,9 +140,6 @@ return (
         </fieldset>
       
       </form>
-            {/* <img src="images/Leaf.png" alt="Leaf" /> */}
-
-            
             </div>
             <div className='CloseBoxRight'>
             Comments

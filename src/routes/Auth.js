@@ -81,54 +81,6 @@ return (
         </section>
     </main>
 
-
-
-
-/*
-
-
-    <div className='login'>
-        <div className='topBox'>
-            <h1>LOGIN</h1>
-        </div>
-        <div className='loginBox'>
-            <form onSubmit={onSubmit}>
-                <input 
-                name="email" 
-                type="email" 
-                placeholder="Email" 
-                required 
-                value={email}
-                onChange={onChange}
-                />
-                <input
-                name="password" 
-                type="password" 
-                placeholder="Password" 
-                required
-                value={password}
-                onChange={onChange} 
-                />
-                <br />
-                <label>
-                    <input type="checkbox" />아이디 기억하기</label>
-                <br />
-                <input type="submit" value={newAccount ? "Create Acount" : "Log In"} />
-                
-            </form>
-            <div>
-                <button>회원가입</button>
-                <button>비밀번호 찾기</button>
-                <button>계정 찾기</button>
-            </div>
-            <div>
-                <button>continue with Naver</button>
-                <button>continue with Google</button>
-                <button>continue with Kakao</button>
-            </div>
-        </div>
-    </div>
-    */
 )
 }
 
